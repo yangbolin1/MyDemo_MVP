@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yunos.tv.app.widget.focus.FocusLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_vgallery_item0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="false"
+    android:orientation="horizontal">
+    <!--  android:focusable="true"
+      android:focusableInTouchMode="true"-->
+    <com.yunos.tv.app.widget.focus.FocusImageView
+        android:id="@+id/id_iv_item0"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:scaleType="fitXY"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <com.yunos.tv.app.widget.focus.FocusImageView
+        android:id="@+id/id_iv_item1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:scaleType="fitXY"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <com.yunos.tv.app.widget.focus.FocusImageView
+        android:id="@+id/id_iv_item2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:scaleType="fitXY"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+    <com.yunos.tv.app.widget.focus.FocusImageView
+        android:id="@+id/id_iv_item3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:scaleType="fitXY"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+</com.yunos.tv.app.widget.focus.FocusLinearLayout>

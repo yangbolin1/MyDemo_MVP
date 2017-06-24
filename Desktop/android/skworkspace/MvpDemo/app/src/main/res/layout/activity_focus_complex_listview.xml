@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yunos.tv.app.widget.focus.FocusPositionManager
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_focus_root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="8"
+    android:orientation="vertical"
+    >
+    <!--标题栏-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+    <!--内容栏-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:weightSum="4"
+        android:orientation="horizontal"
+        >
+        <com.yunos.tv.app.widget.focus.FocusListView
+            android:id="@+id/id_lv"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:focusable="true"
+            android:background="@color/colorRed"
+            >
+        </com.yunos.tv.app.widget.focus.FocusListView>
+
+        <com.yunos.tv.app.widget.focus.FocusListView
+            android:id="@+id/id_list_right"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="3"
+            android:gravity="center_horizontal"
+            android:background="@android:color/darker_gray"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            />
+    </LinearLayout>
+</LinearLayout>
+</com.yunos.tv.app.widget.focus.FocusPositionManager>

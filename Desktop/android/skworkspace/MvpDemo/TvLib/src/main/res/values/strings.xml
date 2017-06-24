@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TvLib</string>
+    <string name="btn1_name">焦点管理</string>
+    <string name="btn_focuse_demo">焦点管理样例</string>
+    <string name="btn_focuse_h_lv">焦点水平listView</string>
+    <string name="btn_focuse_lv">焦点listView</string>
+    <string name="btn_focuse_gridview">焦点gridView</string>
+    <string name="btn_focuse_complex">复杂焦点GridView</string>
+    <string name="btn_focuse_vgallery">垂直长廊</string>
+    <string name="btn_focuse_complex_list">复杂焦点ListView</string>
+    <string name="mvp_simple1">mvp例子1</string>
+    <string name="text_1">网格测试</string>
+</resources>

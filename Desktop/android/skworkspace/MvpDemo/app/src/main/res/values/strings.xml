@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MvpDemo</string>
+    <string name="test1_txt_0">0这是一个超级长的字符串的演示</string>
+    <string name="test1_txt_1">1这是一个超级长的字符串的演示</string>
+    <string name="test1_txt_2">2这是一个正常的字符串</string>
+</resources>

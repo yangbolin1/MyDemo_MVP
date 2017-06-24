@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.yunos.tv.app.widget.focus.FocusPositionManager
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:focusable="true"
+    android:id="@+id/id_focus_root_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.yunos.tv.app.widget.focus.FocusVGallery
+        android:id="@+id/id_vg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusable="true"
+        >
+    </com.yunos.tv.app.widget.focus.FocusVGallery>
+</com.yunos.tv.app.widget.focus.FocusPositionManager>
